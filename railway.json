@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "hypercorn main:app --bind \"[::]:443\""
+    "startCommand": "hypercorn main:app --bind \"[::]:$PORT\""
   }
 }
